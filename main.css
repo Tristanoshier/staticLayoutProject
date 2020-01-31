@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Overpass:300,400&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Overpass:300,400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Overpass:300,400,900&display=swap');
 
 
 body {
     background-color: #EFEFEF;
+    margin: 0;
 }
 
 .navLinks {
@@ -24,25 +26,26 @@ body {
     display: block;
     color: white;
     text-align: center;
-    padding: 18px 18px;
+    padding: 24px;
     text-decoration: none;
   }
-  
+
   li a:hover {
     background-color: #111;
   }
   
 .navTitle{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Crimson Text", 'Times New Roman', Times, serif;
     float: left;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     text-align: center;
-    padding: 18px 18px
+    padding: 21px;
 }
 
 .logo {
-    padding: 29px 29px;
+    padding: 35px 35px;
+    background-image: url();
     background-color: #E33E42;
     float: left;
 }
@@ -56,24 +59,25 @@ body {
     position: relative;
     padding: 0;
     background-image:url(https://elevenfifty.org/wp-content/uploads/2019/03/Banner-6.jpg);
+    background-repeat: no-repeat;
 }
 
 .courses{
     font-family: "Overpass", sans-serif;
     font-size: 60px;
-    padding: 15px 22px;
+    padding-left: 20px;
+    padding-right: 20px;
     position: absolute;
     margin-left: 100px;
     bottom: 40px;
     float: left;
-    width: auto;
     color: white;
     background-color: rgba(0, 0, 0, 0.7);
     text-transform: uppercase;
 }
 
 h2 {
-    font-family: "Overpass", sans-serif;
+    font-family: Helvetica, sans-serif;
     font-size: 36px;
     color: #348DB9;
     margin-left: 100px;
@@ -84,4 +88,14 @@ p {
     font-family: "Overpass", sans-serif;
     font-size: 21px;
     margin-left: 100px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.text {
 }
